@@ -1,0 +1,59 @@
+{
+  "modules" : [ {
+    "dependencies" : [ {
+      "scopes" : [ "test" ],
+      "id" : "junit:junit:3.8.1",
+      "md5" : "1f40fb782a4f2cf78f161d32670f7a3a",
+      "sha1" : "99129f16442844f6a4a11ae22fbbee40b14d774f",
+      "type" : "jar"
+    } ],
+    "artifacts" : [ {
+      "name" : "OneClickDemo-0.0.1-SNAPSHOT.war",
+      "md5" : "ece0e0967300f05e0ce2acffccbd3252",
+      "sha1" : "3f3242201cbdc2ecf193b78563dcfa2a5edde9f2",
+      "type" : "war"
+    } ],
+    "id" : "Demo:OneClickDemo:0.0.1-SNAPSHOT",
+    "properties" : {
+    }
+  } ],
+  "artifactoryPluginVersion" : "2.4.6",
+  "principal" : "auto",
+  "licenseControl" : {
+    "runChecks" : false,
+    "includePublishedArtifacts" : false,
+    "autoDiscover" : true,
+    "scopesList" : "",
+    "licenseViolationsRecipientsList" : ""
+  },
+  "buildRetention" : {
+    "deleteBuildArtifacts" : true,
+    "buildNumbersNotToBeDiscarded" : [ ],
+    "count" : -1
+  },
+  "governance" : {
+    "blackDuckProperties" : {
+      "runChecks" : false,
+      "includePublishedArtifacts" : false,
+      "autoCreateMissingComponentRequests" : false,
+      "autoDiscardStaleComponentRequests" : false
+    }
+  },
+  "parentName" : "Test_job2",
+  "parentNumber" : "107",
+  "agent" : {
+    "version" : "2.19.3",
+    "name" : "Jenkins"
+  },
+  "buildAgent" : {
+    "version" : "3.3.9",
+    "name" : "Maven"
+  },
+  "started" : "2016-11-30T06:52:59.941+0000",
+  "durationMillis" : 6758,
+  "url" : "http://54.227.164.99/jenkins/job/Build_job3/116/",
+  "version" : "1.0.1",
+  "name" : "Build_job3",
+  "type" : "MAVEN",
+  "number" : "116"
+}
