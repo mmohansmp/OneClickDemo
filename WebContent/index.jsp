@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>One Click Deployment Demo to Ashok (Modified)</title>
+    <title>One Click Deployment Demo to Ashok (Modified2)</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
